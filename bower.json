@@ -7,12 +7,22 @@
     "js"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/Tenwq/webapp",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "authors": [
+    "fe_wangqi <494313342@qq.com>"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.5",
+    "requirejs": "^2.3.4"
+  },
+  "dependencies": {
+    "angular-ui-router": "^1.0.5"
+  }
 }

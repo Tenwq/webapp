@@ -1,0 +1,17 @@
+<div class="position-class">
+	<div class="position-class-info">
+		<h5>职位分类：</h5>
+		<button type="button"
+			class="{{$index === isActive?'active':''}}" 
+			ng-click="showPositionList($index);" 
+			ng-repeat="cls in com.positionClass" 
+			ng-bind="cls.name">技术</button>
+	</div>
+	<ul>
+		<li ng-repeat="pos in positionList">
+			<p ng-bind="pos.name"></p>
+			<p ng-bind="pos.createdDate"></p>
+			<span ng-bind="pos.salary"></span>
+		</li>
+	</ul>
+</div>

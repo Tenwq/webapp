@@ -1,0 +1,46 @@
+.position-class{
+	border-bottom:1px solid #ccc;
+	background-color:@defaultColor;
+	.pt(20);
+	.pl(20);
+	.pb(20);
+	.position-class-info{
+		border-bottom:1px solid #ccc;
+		.pb(10);
+		h5{
+			.fs(30);
+			font-weight:bold;
+			.mb(40);
+		}
+		button{
+			display:inline-block;
+			.h(60);
+			background-color:@btnBgColor;
+			border-radius:1.875rem;
+			padding:0 1rem;
+			.fs(26);
+			color:#333;
+			.mr(20);
+			&.active{
+				color:#fff;	
+				background-color:@headBgColor;
+			}
+		}
+	}
+	ul{
+		.fs(26);
+		.mt(10);
+		li{
+			position:relative;
+		}
+		p{
+			.lh(50);
+		}
+		span{
+			.pa;
+			right:.625rem;
+			top:40%;
+			color:#f00;
+		}
+	}
+}

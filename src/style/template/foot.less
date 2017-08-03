@@ -1,0 +1,48 @@
+.foot{
+	position: fixed;
+	width:100%;
+	.h(80);
+	.lh(80);
+	left:0;
+	bottom:0;
+	background-color:#fff;
+	border-top:1px solid @lineColor;
+	.flex;
+	align-items:center;
+	justify-content:space-between;
+	li{
+		flex:1;
+		text-align:center;
+		font-size:0.875rem;
+		color:@muteColor;
+		height:100%;
+	}
+	a{
+		display:block;
+		&.select{
+			background-color:@highlightBgColor;
+			color:@highlightColor;
+		}
+	}
+	.icon-job,
+	.icon-search,
+	.icon-my{
+		display:inline-block;
+		vertical-align:-3px;
+		width:1.125rem;height:1.125rem;
+		background-position:center center;
+		background-repeat:no-repeat;
+		background-size:contain;
+		margin-right:0.3125rem;
+	}
+	.icon-job{
+		background-image:url(../img/document.png);
+		
+	}
+	.icon-search{
+		background-image:url(../img/search.png);
+	}
+	.icon-my{
+		background-image:url(../img/my.png);
+	}
+}
