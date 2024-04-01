@@ -9,6 +9,8 @@ lerna-debug.log*
 apps/**/dist
 node_modules
 dist-ssr
+dist
+build
 backup
 *.local
 
